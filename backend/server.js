@@ -2,8 +2,9 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-//change this to 443 when sll is set up
-const PORT = 80;
+
+const PORT = 3000;
+
 
 app.use(express.static(path.join(__dirname, '../public')));
 
