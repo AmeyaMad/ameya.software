@@ -2,10 +2,11 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+//change this to 443 when sll is set up
+const PORT = 80;
 
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running at ameya.software`);
 });
