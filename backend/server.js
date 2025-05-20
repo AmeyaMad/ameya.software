@@ -9,6 +9,6 @@ const PORT = 3000;
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.listen(PORT, () => {
-    console.log(`Server running at http://ameya.software`);
+    console.log(`Server running at https://ameya.software`);
 
 });
