@@ -10,6 +10,35 @@ body {
     height: 100vh;
 }
 
+#toggleThemeBar {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+#toggleThemeButton {
+    background-color: #1E1E24;        /* dark gray */
+    color: #9AE3D6;                   /* light accent */
+    border: 1px solid #2A2A2E;        /* subtle dark border */
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* enhanced shadow for dark mode */
+    transition: all 0.2s ease-in-out;
+}
+
+#toggleThemeButton:hover {
+    background-color: #2A2E36;        /* darker gray on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
 .container {
     text-align: center;
     padding: 20px;
@@ -22,7 +51,7 @@ h1 {
 }
 
 h1 span {
-    color: #2F6FED;
+    color: #9AE3D6;
 }
 
 p {
@@ -33,7 +62,7 @@ p {
 
 .btn {
     text-decoration: none;
-    background-color: #0d56ec;
+    background-color: #9AE3D6;
     color: #121417;
     padding: 0.75em 1.5em;
     border-radius: 5px;
@@ -42,5 +71,5 @@ p {
 }
 
 .btn:hover {
-    background-color: #6395ff;
+    background-color: #73C9B6;
 }

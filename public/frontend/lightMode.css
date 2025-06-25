@@ -2,12 +2,36 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #F5F7FA; /* very light gray */
-    color: #1E1E24; /* dark text */
+    background-color: #FAFAFA; /* light background */
+    color: #1A1A1A;            /* dark text */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+#toggleThemeBar {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+#toggleThemeButton {
+    background-color: #FFFFFF;        /* white */
+    color: #006666;                   /* dark teal accent */
+    border: 1px solid #CCCCCC;        /* light gray border */
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* soft shadow for light mode */
+    transition: all 0.2s ease-in-out;
+}
+
+#toggleThemeButton:hover {
+    background-color: #F0F0F0;        /* light gray hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .container {
@@ -22,18 +46,18 @@ h1 {
 }
 
 h1 span {
-    color: #0D56EC; /* deep rich blue */
+    color: #006666; /* accent color */
 }
 
 p {
     font-size: 1.2em;
     margin-bottom: 2em;
-    color: #4A4A4A; /* medium gray for better readability */
+    color: #333333;
 }
 
 .btn {
     text-decoration: none;
-    background-color: #0D56EC; /* same deep blue */
+    background-color: #006666;
     color: #FFFFFF;
     padding: 0.75em 1.5em;
     border-radius: 5px;
@@ -42,5 +66,5 @@ p {
 }
 
 .btn:hover {
-    background-color: #6395FF; /* lighter blue on hover */
+    background-color: #009999;
 }

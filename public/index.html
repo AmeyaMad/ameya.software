@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Ameya.software</title>
-    <link rel="stylesheet" href="frontend/lightMode.css" />
+    <link id="theme" rel="stylesheet" href="frontend/darkMode.css" />
+    <script src="frontend/themeToggle.js"></script>
 </head>
 <body>
+<div id = "toggleThemeBar">
+    <button onclick="toggleTheme()" id = "toggleThemeButton">
+        Toggle Light Mode
+    </button>
+</div>
+
+
 <div class="container">
     <h1>Welcome to <span>ameya.software</span></h1>
     <p>This site is under construction, but something cool is coming soon 🚀</p>
