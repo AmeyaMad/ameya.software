@@ -1,4 +1,4 @@
-require("dotenv").congig();
+require("dotenv").config();
 const axios = require("axios");
 
 async function getToken(){
